@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>I am border!</title>
+</head>
+<body>
+    <div class="border-class" id="border" style="border-radius: 0">
+        <h1>I am border!</h1>
+        <div class="border-box" id="border-box">
+            <p style="text-align: center; margin:auto">Click on to copy the text!</p>
+        </div>
+        <div id="toastMessage" class="alert">Copied the text!</div>
+    </div>
+    <div class="input-all-angles">
+        <div class="input-item">
+            <p class="paragraph-item">left-top</p>
+            <input type="text" id="left-top" class="input" placeholder="0" onkeypress="return onlyNumberKey(event)">
+            <input type="range" min="0" max="180" step="1" value="0" id="left-top-range" class="input-range" placeholder="0">
+        </div>
+        <div class="input-item">
+            <p class="paragraph-item">right-top</p>
+            <input type="text" id="right-top" class="input" placeholder="0" onkeypress="return onlyNumberKey(event)">
+            <input type="range" min="0" max="180" step="1" value="0" id="right-top-range" class="input-range" placeholder="0">
+        </div>
+        <div class="input-item">
+            <p class="paragraph-item">left-bottom</p>
+            <input type="text" id="left-bottom" class="input" placeholder="0" onkeypress="return onlyNumberKey(event)">
+            <input type="range" min="0" max="180" step="1" value="0" id="left-bottom-range" class="input-range" placeholder="0">
+        </div>
+        <div class="input-item">
+            <p class="paragraph-item">right-bottom</p>
+            <input type="text" id="right-bottom" class="input" placeholder="0" onkeypress="return onlyNumberKey(event)">
+            <input type="range" min="0" max="180" step="1" value="0" id="right-bottom-range" class="input-range" placeholder="0">
+        </div>
+    </div>
+    <footer class="footer">
+        Made with
+        <span class="footer__heart">💜</span> by
+        <a href="https://github.com/hardt0x1c" target="_blank">hardt0x1c</a>
+      </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
